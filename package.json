@@ -1,0 +1,27 @@
+{
+  "name": "nightmare-server",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dirkraft/nightmare-server"
+  },
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "1.15.1",
+    "express": "4.13.4",
+    "jquery": "2.2.3",
+    "lodash": "4.12.0",
+    "nightmare": "2.9.1",
+    "node-fetch": "^1.7.3",
+    "sprintf": "0.1.5",
+    "puppeteer": "1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

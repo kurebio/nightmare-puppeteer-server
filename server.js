@@ -88,7 +88,6 @@ function dispatchNext() {
 
   function driveRequest(fnStr) {
     try {
-      console.log(fnStr);
       var userScript = eval(fnStr);
       if (!_.isFunction(userScript)) {
         return errorResponse(400, 'Request body is not a function. Should follow the form (function(driver|nightmare|puppeteer){ /* ... */ })')
@@ -98,12 +97,10 @@ function dispatchNext() {
         script = userScript;
       } else {
         if (/function\(puppeteer\)/.test(fnStr)) {
-          console.log('puppeteer');
           script = (function (driver) {
             return userScript(driver.puppeteer());
           });
         } else {
-          console.log('nightmare');
           script = (function (driver) {
             return userScript(driver.nightmare());
           });

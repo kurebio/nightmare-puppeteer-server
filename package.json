@@ -10,7 +10,7 @@
   "dependencies": {
     "body-parser": "1.15.1",
     "express": "4.13.4",
-    "jquery": "2.2.3",
+    "jquery": "3.4.0",
     "lodash": "4.17.13",
     "nightmare": "2.9.1",
     "node-fetch": "^1.7.3",

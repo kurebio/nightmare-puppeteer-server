@@ -10,12 +10,12 @@
   "dependencies": {
     "body-parser": "1.15.1",
     "express": "4.13.4",
-    "jquery": "3.4.0",
-    "lodash": "4.17.13",
+    "jquery": "3.4.1",
+    "lodash": "4.17.15",
     "nightmare": "2.9.1",
-    "node-fetch": "^1.7.3",
-    "sprintf": "0.1.5",
-    "puppeteer": "1.7.0"
+    "node-fetch": "^2.6.0",
+    "puppeteer": "1.19.0",
+    "sprintf": "0.1.5"
   },
   "devDependencies": {},
   "scripts": {
